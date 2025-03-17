@@ -1,16 +1,24 @@
 .container_small-card{
     border: 1px solid;
-    border-color: black;
+    border-radius: 10px;
+    border-color: rgb(193, 193, 193);
     width: 500px;
     margin-top: 20px;
     
 }
 .small-card-photo > img{
     width: 100%;
-    min-width: 399.9px;
+    min-width: 500px;
+    min-height: 500px;
+    max-width: 400px;
+    max-height: 400px;
 }
 .small-card-title{
-    max-width: 380px;
+    margin-left: 20px;
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 200px;
+    max-height: 200px;
     display: flex;
     word-wrap: break-word;
     overflow: hidden; /* Oculta o excesso de texto */

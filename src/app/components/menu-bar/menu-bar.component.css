@@ -13,20 +13,39 @@
         margin-right: 20px;
     }
     .container_menu-bar > ul > li{
-
+        font-size: 20px;
         margin-right: 20px;
+
     }
     .container_menu-bar{
+        background-color: rgb(241, 241, 241);
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        height: 150px;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 
     }
 
+    .img_container{
+        display: flex;
+        align-items: center;
 
+
+    }
     .img_container a > img{
+        margin-top: 10px;
         border-radius:360px;
-        height: 80px;
+        height: 120px;
         margin-left: 30px;
     }
+    .img_container a > span{
+        font-size: 40px;
+        margin-left: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+        
+    }
+

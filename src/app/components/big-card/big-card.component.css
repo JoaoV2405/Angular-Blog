@@ -18,13 +18,18 @@
     height: 450px;
     margin-left: -50px;
     padding: 20px;
+    border: 1px solid;
+    border-color: rgb(236, 236, 236);
     
 }
 
 .big-card_description > p > a{
-color: gray;
+color: rgb(104, 103, 103);
+font-size: 20px;
+
 
 }
+
 .big-card_title > h1 > a{
     font-size: 45px;
 }
@@ -32,4 +37,8 @@ color: gray;
 a{
     text-decoration: none;
     color: black;
+}
+
+.big-card__photo > img{
+    border-radius: 20px;
 }
