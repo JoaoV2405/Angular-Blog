@@ -1,0 +1,35 @@
+.container_big-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:white;
+    overflow-wrap: break-word;
+    width: 500px;
+}
+
+.container-text{
+    height: 450px;
+    margin-left: -50px;
+    padding: 20px;
+    
+}
+
+.big-card_description > p > a{
+color: gray;
+
+}
+.big-card_title > h1 > a{
+    font-size: 45px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
